@@ -1,0 +1,763 @@
+@media only screen and (min-width: 650px) and (max-width: 2400px) {
+  .football_image img {
+    width: 100%;
+  }
+  .football {
+    margin-top: 10px;
+    width: 80%;
+    margin: 0;
+    padding: 0;
+  }
+  .betPop-top-counter1 {
+    position: relative;
+  }
+  .betPop-top-counter1 h4 {
+    background: #351fbb;
+    font-size: 12px;
+    position: absolute;
+    right: -30px;
+    top: -10px;
+    padding: 4px;
+    border-radius: 50%;
+  }
+
+  .betPop {
+    position: fixed;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+    bottom: 40px;
+    right: 30px;
+    z-index: 100;
+    height: 170px;
+    background: #d3d0d0;
+    width: 300px;
+  }
+  .betPop-inner-top {
+    display: flex;
+    gap: 5px;
+    padding: 0px 0px 0px 10px;
+  }
+
+  .bet-football {
+    font-size: 9px;
+  }
+
+  .betPop-inner-top2-1 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .betPop-footer {
+    display: flex;
+  }
+  .betPop-footer-input {
+    background: #333;
+    min-height: 50px;
+    display: flex;
+    width: 50%;
+    gap: 20px;
+    align-items: center;
+    color: #ffffff;
+  }
+  .betPop-footer-input input {
+    background: transparent;
+    border: transparent;
+    min-height: 50px;
+    outline: transparent;
+    padding: 0px 10px;
+    color: #ffffff;
+    width: 75%;
+    font-size: 10px;
+  }
+  .betPop-footer-btn {
+    background: linear-gradient(
+      90deg,
+      #351fbb 11.84%,
+      #4c7cac 56.08%,
+      #1ebcc6 93.42%
+    );
+    width: 50%;
+    font-size: 12px;
+  }
+
+  .betPop-footer-btn button {
+    background: transparent;
+    border: transparent;
+    min-height: 50px;
+    width: 100%;
+    outline: transparent;
+    color: #ffffff;
+  }
+
+  .betPop-inner-top2 {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 3px;
+    border-bottom: 2px solid#1ebcc6;
+  }
+
+  .betPop-inner-top2-cover {
+    width: 100%;
+  }
+  .betPop-inner-top1 h3 {
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .betPop-inner-top2 h3,
+  .betPop-top-counter h3 {
+    font-size: 12px;
+  }
+
+  .betPop-top-counter {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    color: #ffffff;
+  }
+
+  .soccer {
+    width: 20%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .soccer-container {
+    width: 100%;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .soccer-container .soccer-header {
+    background: black;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .soccer-container .soccer-header p {
+    text-align: center;
+    color: white;
+    padding: 6px;
+  }
+  .countries-sports {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 9px;
+  }
+  .countries-sports .countries-sports-contents {
+    cursor: pointer;
+    text-align: center;
+    padding: 7px 7px;
+    display: flex;
+    gap: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.156);
+  }
+
+  .countries-sports .countries-sports-contents img {
+    width: 20px;
+  }
+  .countries-sports .countries-sports-contents .name {
+    text-align: center;
+  }
+  .countries-sports .countries-sports-contents:hover {
+    background: rgba(0, 0, 0, 0.131);
+  }
+  .football-section2 {
+    background: #ffffff;
+  }
+  .football-highlight {
+    background: #0d1d4b;
+    padding: 10px 0px;
+    margin-top: -8px;
+  }
+  .football-highlight h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .football-display-matches-flex-left2 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .football-display-matches-flex {
+    padding: 20px 12px 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #0b1d3e;
+  }
+  .football-display-matches-flex-left {
+    padding: 0px 20px 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .football-display-matches-flex-left h3 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #0b1c3c;
+  }
+  .football-display-matches-flex-left h4 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 30px;
+    color: #0b1d3e;
+  }
+
+  .football-display-matches-flex-right h3 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    color: #0b1d3e;
+    border: 3px solid #0b1d3e;
+    border-radius: 10px;
+    padding: 1px 6px;
+    cursor: pointer;
+  }
+
+  .football-greenlight1 {
+    animation: infinite 1s zoom-in-zoom-out;
+    background: #09ac19;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    left: 55%;
+  }
+  .football-greenlight2 {
+    animation: infinite 1s zoom-in-zoom-out;
+    background: #09ac19;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    left: 55%;
+  }
+  .football_live_flex {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+  }
+  .Leagues {
+    width: 20%;
+  }
+  .fixtues {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: relative;
+  }
+  .fixture-container {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* padding: 10px; */
+    display: flex;
+  }
+  .fixture-contents {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    gap: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.193);
+    cursor: pointer;
+    padding: 0px 10px;
+  }
+  .fixture-content {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    gap: 10px;
+    cursor: pointer;
+    padding: 10px;
+  }
+  #fixture-contents {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    gap: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.193);
+    cursor: pointer;
+    padding: 9px 10px;
+  }
+  /* .fixture-contents .home-team-left-cover {
+    width: 70%;
+  }
+  .fixture-contents .home-team-right-cover {
+    width: 30%;
+    margin: 6px;
+    padding: 6px 0px;
+    display: flex;
+    justify-content: space-around;
+  } */
+
+  .home-team-right-cover {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.193);
+  }
+
+  #home-team-right-cover-id {
+    display: flex;
+    gap: 20px;
+    padding: 0px 10px 6px 10px;
+    font-size: 12px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.193);
+  }
+
+  /* .match-time h2:hover {
+    color: rgb(177, 177, 3);
+  } */
+
+  .game-football {
+    width: 100%;
+    font-size: 9px;
+  }
+
+  .game-football-header{
+    width: 100%;
+    background: #0b1d3e;
+    color: #afafaf;
+    padding: 0;
+    margin: 0;
+  }
+  .game-football-header2{
+    width: 100%;
+    background: #082252;
+    color: #afafaf;
+    padding: 0;
+    margin: 0;
+  }
+
+  .game-football-header2 .content{
+    display: flex;
+    padding: 5px;
+    font-size: 8px;
+    border-bottom: 1px solid #d9d9d94a ;
+  }
+  .game-football-header2 .content .team{
+   width: 37%;
+  }
+  .game-football-header2 .content .major{
+    width: 20%;
+    display: flex;
+    text-align: center;
+    border-left: 1px solid #d9d9d94a;
+    border-right: 1px solid #d9d9d94a;
+   }
+   .game-football-header2 .content .major .home_t{
+      width: 100%;
+      text-align: center;
+      font-size: 9px;
+      border-left: 1px solid #d9d9d94a;
+      border-right: 1px solid #d9d9d94a;
+   }
+   .game-football-header2 .content .double-odd{
+    width: 20%;
+    text-align: center;
+    border-right: 1px solid #d9d9d94a;
+   }
+   .game-football-header2 .content .over-odd{
+    width: 16%;
+    text-align: center;
+    border-right: 1px solid #d9d9d94a;
+    font-size: 8px;
+    display: flex;
+   }
+   .game-football-header2 .content .over-odd .home_t{
+    width: 100%;
+    text-align: center;
+    font-size: 9px;
+    border-left: 1px solid #d9d9d94a;
+    border-right: 1px solid #d9d9d94a;
+   }
+   .game-football-header2 .content .view-more{
+    text-align: center;
+    font-size: 8px;
+   }
+   .game-football-main{
+    width: 100%;
+    color: black;
+    padding: 0;
+    margin: 0;
+  }
+  .game-football-main .content{
+    display: flex;
+    padding: 5px;
+    font-size: 8px;
+    border-bottom: 1px solid #d9d9d94a ;
+  }
+  .game-football-main .content .team{
+   width: 37%;
+   display: flex;
+  }
+  .game-football-main .content .team .team-section{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 5px;
+    padding-left: 8px;
+   }
+  .game-football-main .content .major{
+    width: 20%;
+    display: flex;
+    text-align: center;
+    border-left: 1px solid #d9d9d94a;
+    border-right: 1px solid #d9d9d94a;
+   }
+   .game-football-main .content .major .home_t{
+      width: 100%;
+      text-align: center;
+      font-size: 9px;
+      border-left: 1px solid #d9d9d94a;
+      border-right: 1px solid #d9d9d94a;
+   }
+   .game-football-main .content .major .home_t button{
+    background: #05044e;
+    border: none;
+    cursor: pointer;
+    padding: 6px 15px;
+    font-size: 8px;
+    color: #d8d8dd;
+ }
+ .game-football-main .content .major .home_t button:hover{
+   background: #2522d4;
+  }
+   .game-football-main .content .double-odd{
+    width: 20%;
+    text-align: center;
+    border-right: 1px solid #d9d9d94a;
+    display: flex;
+   }
+   .game-football-main .content .over-odd{
+    width: 16%;
+    text-align: center;
+    border-right: 1px solid #d9d9d94a;
+    font-size: 8px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   }
+
+   .game-football-main .content .over-odd .home_t{
+    text-align: center;
+    border-right: 1px solid #d9d9d94a;
+    border-left: 1px solid #d9d9d94a;
+    font-size: 8px;
+   }
+
+   .game-football-main .content .over-odd .home_t button:hover{
+      background: #2522d4;
+   }
+   .game-football-main .content .over-odd .home_t button{
+    background: #05044e;
+    border: none;
+    cursor: pointer;
+    padding: 6px 15px;
+    font-size: 8px;
+    color: #d8d8dd;
+  width: 100%;
+ }
+   .game-football-main .content .view-more{
+    text-align: center;
+    font-size: 8px;
+   }
+
+   .game-football-main .content .view-more button{
+    background: #05044e;
+    border: none;
+    cursor: pointer;
+    padding: 0px 12px;
+    font-size: 15px;
+    color: #d8d8dd;
+    width: 100%;
+   }
+   .game-football-main .content .view-more button:hover{
+      background: #2522d4;
+   }
+
+
+      .game-football-header .content{
+    display: flex;
+    padding: 5px;
+    font-size: 8px;
+    border-bottom: 1px solid #d9d9d94a ;
+  }
+  .game-football-header .content .team{
+   width: 37%;
+  }
+  .game-football-header .content .major{
+    width: 20%;
+    text-align: center;
+    border-left: 1px solid #d9d9d94a;
+    border-right: 1px solid #d9d9d94a;
+   }
+   .game-football-header .content .double-odd{
+    width: 20%;
+    text-align: center;
+    border-right: 1px solid #d9d9d94a;
+   }
+   .game-football-header .content .over-odd{
+    width: 16%;
+    text-align: center;
+    border-right: 1px solid #d9d9d94a;
+    font-size: 8px;
+   }
+   .game-football-header .content .view-more{
+    text-align: center;
+    font-size: 8px;
+   }
+
+
+   .game-football-header .content{
+    display: flex;
+    padding: 5px;
+    font-size: 8px;
+    border-bottom: 1px solid #d9d9d94a ;
+  }
+  .game-football-header .content .team{
+   width: 37%;
+  }
+  .game-football-header .content .major{
+    width: 20%;
+    text-align: center;
+    border-left: 1px solid #d9d9d94a;
+    border-right: 1px solid #d9d9d94a;
+   }
+   .game-football-header .content .double-odd{
+    width: 20%;
+    text-align: center;
+    border-right: 1px solid #d9d9d94a;
+   }
+   .game-football-header .content .over-odd{
+    width: 16%;
+    text-align: center;
+    border-right: 1px solid #d9d9d94a;
+    font-size: 8px;
+   }
+   .game-football-header .content .view-more{
+    text-align: center;
+    font-size: 8px;
+   }
+
+  .home-team-right-odds {
+    background: linear-gradient(
+      90deg,
+      #351fbb 11.84%,
+      #4c7cac 56.08%,
+      #1ebcc6 93.42%
+    );
+    padding: 6px 10px;
+    border-radius: 5px;
+    color: #d9d9e4;
+    width: 60px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .home-team-right-odds {
+    background: linear-gradient(
+      90deg,
+      #2f1f99 11.84%,
+      #446a91 56.08%,
+      #25a7b1 93.42%
+    );
+  }
+
+  .home-team-right-cover1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .home-team {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 4px;
+  }
+
+  .home-team img {
+    width: 20px;
+  }
+  .march-scores {
+    padding: 10px;
+  }
+
+  .march-time {
+    padding: 10px;
+  }
+  .march-time .stau {
+    color: red;
+    font-size: 13px;
+  }
+
+  .mobile-football_live_flex {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .football_live_flex {
+    display: none;
+  }
+  .mobile-football_live_flex {
+    margin: 10px;
+    overflow-y: scroll;
+  }
+  .football_image img {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+  }
+
+  .football {
+    margin-top: 10px;
+  }
+
+  .football-arrow {
+    background: #05045d;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 10px;
+    width: 20px;
+    height: 20px;
+  }
+  .football-arrow h3 {
+    padding-left: 6px;
+    padding-top: 1px;
+  }
+
+  .football-section2 {
+    background: #ffffff;
+    background: #ffffff;
+    padding: 5px;
+  }
+  .football-highlight {
+    background: #0d1d4b;
+    padding: 5px 0px;
+    margin-top: -8px;
+  }
+  .football-highlight h3 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .football-display-matches-flex {
+    padding: 10px 6px 0px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #0b1d3e;
+  }
+  .football-display-matches-flex-left {
+    padding: 0px 0px 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+  }
+}
+.leagues-fixtues-odd{
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.leagues-fixtures-left{
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.leagues-fixtures-left h3{
+  font-size: 12px;
+}
+.leagues-fixtures-left div{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+}
+.leagues-sp{
+  display: flex;
+  align-items: center;
+}
+.leagues-sp span{
+  width: 55px;
+  height: 15px;
+}
+.leagues-sp1{
+  display: flex;
+  align-items: center;
+  background-color: #05045d;
+  color: #d3d0d0;
+  font-size: 12px;
+}
+.leagues-sp2{
+  display: flex;
+  align-items: center;
+  background-color: #d3d0d0;
+  color: #05045d;
+  font-size: 12px;
+}
+.leagues-fixtures-right{
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2px;
+}
+.leagues-fixtures-right div{
+  display: flex;
+  align-items: center;
+  width: 5.5rem;
+  height: 2rem;
+  background-color: dodgerblue;
+  /* font-size: 7px;
+  font-weight: 400; */
+  color: #d3d0d0;
+}
+.leagues-fixtures-right .clcl{
+  display: flex;
+  align-items: center;
+  font-size: 7px;
+}
+.clcl h1{
+  margin: auto;
+}
+#leagues-headerr{
+  background-color: #0b1c3c;
+}
+#headers-right div{
+  display: flex;
+  align-items: center;
+  width: 5.5rem;
+  height: 2rem;
+  background-color: #0b1c3c;
+  /* font-size: 7px;
+  font-weight: 400; */
+  color: #d3d0d0;
+}

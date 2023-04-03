@@ -1,0 +1,240 @@
+@media only screen and (min-width: 650px) and (max-width: 2400px) {
+  .cricket_image img {
+    width: 100%;
+  }
+  .cricket {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+  }
+  .cricket .cricket-container {
+    width: 65%;
+  }
+  .cricket-highlight {
+    background: #0b1c3c;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 5px;
+  }
+  .betslip{
+    background: white;
+    width: 35%;
+    height: 350px;
+  }
+  .betslip .header{
+    background: #0d1d4b;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 6px;
+  }
+  .section2 {
+    background: #ffffff;
+  }
+  .highlight {
+    background: #0d1d4b;
+    padding: 10px 0px;
+    margin-top: -8px;
+  }
+  .highlight h3 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .cricket-display-matches-flex-left2 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .cricket-display-matches-flex {
+    padding: 20px 12px 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #0b1d3e;
+  }
+  .cricket-display-matches-flex-left {
+    padding: 0px 20px 0px 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .cricket-display-matches-flex-left h3 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #0b1c3c;
+  }
+  .cricket-display-matches-flex-left h4 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 30px;
+    color: #0b1d3e;
+  }
+
+  .cricket-display-matches-flex-right h3 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    color: #0b1d3e;
+    border: 3px solid #0b1d3e;
+    border-radius: 10px;
+    padding: 1px 6px;
+    cursor: pointer;
+  }
+
+  .greenlight1 {
+    animation: infinite 1s zoom-in-zoom-out;
+    background: #09ac19;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    left: 55%;
+  }
+  .greenlight2 {
+    animation: infinite 1s zoom-in-zoom-out;
+    background: #09ac19;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    left: 66%;
+  }
+  .cricket_live_flex {
+    display: flex;
+    gap: 10px;
+  }
+  .mobile_cricket_live_flex {
+    display: none;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .cricket_live_flex {
+    display: none;
+  }
+  .cricket_image img {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+  }
+  .cricket {
+    margin-top: 10px;
+  }
+
+  .cricket-arrow {
+    background: #05045d;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 10px;
+    width: 20px;
+    height: 20px;
+  }
+  .cricket-arrow h3 {
+    padding-left: 6px;
+    padding-top: 1px;
+  }
+  .mobile_cricket_live_flex {
+    margin: 10px;
+  }
+  .section2 {
+    background: #ffffff;
+  }
+  .highlight {
+    background: #0d1d4b;
+    padding: 5px 0px;
+    margin-top: -8px;
+  }
+  .highlight h3 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 22px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .cricket-display-matches-flex-left2 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .cricket-display-matches-flex {
+    padding: 10px 6px 0px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #0b1d3e;
+  }
+  .cricket-display-matches-flex-left {
+    padding: 0px 10px 0px 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .cricket-display-matches-flex-left h3 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 30px;
+    color: #0b1c3c;
+  }
+  .cricket-display-matches-flex-left h4 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 30px;
+    color: #0b1d3e;
+  }
+
+  .cricket-display-matches-flex-right h3 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    color: #0b1d3e;
+    border: 3px solid #0b1d3e;
+    border-radius: 10px;
+    padding: 1px 6px;
+    cursor: pointer;
+  }
+
+  .greenlight1 {
+    animation: infinite 1s zoom-in-zoom-out;
+    background: #09ac19;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    left: 60%;
+  }
+  .greenlight2 {
+    animation: infinite 1s zoom-in-zoom-out;
+    background: #09ac19;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    left: 75%;
+  }
+}

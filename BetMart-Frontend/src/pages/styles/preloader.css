@@ -1,0 +1,46 @@
+.preloader{
+    background: rgb(3, 3, 57);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 10033;
+}
+.preloader-container{
+    background: navy;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    width: fit-content;
+    top: 30%;
+    left: 37%;
+    animation: move 8s ease-in-out infinite;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+@keyframes move {
+    from {
+        transform: translate3d(0, 0px, 0);
+    }
+    to {
+        transform: translate3d(0, 100px, 0);
+    }
+}
+
+@media only screen and ( max-width : 650px) {
+    .preloader-container{
+        left: 36%;
+    }
+}
+@media only screen and ( min-width : 1150px) {
+    .preloader-container{
+        left: 40%;
+    }
+}
+
+.preloader-container img{
+    width: 150px;
+}

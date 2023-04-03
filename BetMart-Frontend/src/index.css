@@ -1,0 +1,129 @@
+@import url(//db.onlinewebfonts.com/c/2da952d097bffd198ec0f0aa3fdd6804?family=JejuHallasan);
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins";
+}
+html body {
+  background-color: #dce6ee;
+}
+.App{
+  width: 100%;
+}
+.mainscreen {
+  padding-top: 80px;
+  padding-left: 221px;
+  padding-right: 20px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.error-message {
+  background: rgba(255, 0, 0, 0.297);
+  width: 100%;
+  padding: 7px;
+  color: red;
+  font-weight: bolder;
+  font-size: 12px;
+  text-align: center;
+}
+.api-error {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+.news {
+  padding-top: 60px;
+  background: white;
+  padding-left: 201px;
+  display: none;
+  width: 100%;
+  position: fixed;
+  z-index: 9;
+}
+.news .news-head {
+  background: linear-gradient(
+    90deg,
+    #351fbb 11.84%,
+    #4c7cac 56.08%,
+    #1ebcc6 93.42%
+  );
+  padding: 2px 5px;
+  color: white;
+}
+
+.empty-container{
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: bold;
+}
+.profile-header-container{
+  display: none;
+}
+.profile-header-container .wallect{
+  display: none;
+}
+
+@media only screen and (max-width: 750px) {
+  .mainscreen {
+    padding-top: 90px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .news {
+    padding-top: 60px;
+    background: white;
+    padding-left: 0px;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    z-index: 9;
+  }
+
+  .news .news-head{
+    background: linear-gradient(
+      90deg,
+      #351fbb 11.84%,
+      #4c7cac 56.08%,
+      #1ebcc6 93.42%
+    );
+    /* width: 20%; */
+  }
+  .news .news-details{
+    background: linear-gradient(
+      90deg,
+      #351fbb 11.84%,
+      #4c7cac 56.08%,
+      #1ebcc6 93.42%
+    );
+    /* width: 80%; */
+  }
+  .profile-header-container{
+    display: flex;
+  }
+  /* .profile-header-container .wallect{
+    display: block;
+  }
+  .profile-header-container .profile{
+    display: block;
+    margin: 0;
+    margin-left: 30px;
+  } */
+  
+}

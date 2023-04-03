@@ -1,0 +1,442 @@
+@media only screen and (min-width: 1150px) {
+  .signuppage {
+    background: linear-gradient(
+      135.88deg,
+      #1c1c32 25.31%,
+      #202156 65.91%,
+      #171046 103.15%
+    );
+    margin: 50px 400px;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .signuppage {
+    background: linear-gradient(
+      135.88deg,
+      #1c1c32 25.31%,
+      #202156 65.91%,
+      #171046 103.15%
+    );
+    margin: 50px 50px;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+  }
+  .signup-overlay {
+    background: rgb(3, 3, 32);
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    animation: ease 2sec;
+    z-index: 6;
+    color: #fff;
+  }
+
+  .signup-top-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15px;
+    margin-top: 20px;
+  }
+
+  .signup-top-flex1 {
+    background: #163062;
+    border-radius: 35px 0px 0px 35px;
+    padding: 5px 4px;
+    width: 100%;
+  }
+  .signup-top-flex1 a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .signup-top-flex2 a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 11px;
+  }
+  .signup-top-flex1 h3 {
+    text-align: center;
+    font-size: 11px;
+  }
+  .signup-top-flex2 {
+    background: rgba(22, 48, 98, 0.52);
+    border: 5px solid #163062;
+    border-radius: 0px 35px 35px 0px;
+    color: rgba(255, 255, 255, 0.31);
+    width: 100%;
+  }
+  .signup-top-flex2 h3 {
+    text-align: center;
+    font-size: 11px;
+  }
+
+  .signuppage {
+    background: linear-gradient(
+      135.88deg,
+      #1c1c32 25.31%,
+      #202156 65.91%,
+      #171046 103.15%
+    );
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+  }
+  .signuppage-cover {
+    margin: 10px 10px 0px 10px;
+  }
+  .signuppage img {
+    width: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .signuppage h2 {
+    padding-bottom: 20px;
+    font-size: 11px;
+  }
+  .signup-form {
+    margin-top: 20px;
+    font-size: 11px;
+  }
+  .signuppage .signuppage-cover .formEmail {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+  }
+  .signuppage .signuppage-cover .formFirstName,
+  .signuppage .signuppage-cover .formSurname,
+  .signuppage .signuppage-cover .formDOB {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+  }
+
+  .signuppage .signuppage-cover .formEmail input,
+  .signuppage .signuppage-cover .formFirstName input,
+  .signuppage .signuppage-cover .formSurname input,
+  .signuppage .signuppage-cover .formDOB input {
+    background: #d9d9d9;
+    border-radius: 12px 12px;
+    border: none;
+    outline: none;
+    padding: 7px;
+    color: #5b4e4e;
+    font-weight: bold;
+    font-size: 11px;
+  }
+  .signuppage .signuppage-cover .formAge input {
+    background: #d9d9d9;
+    border-radius: 12px 12px;
+    border: none;
+    outline: none;
+    padding: 7px;
+    color: #5b4e4e;
+    font-weight: bold;
+  }
+  .formAge {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .signuppage .signuppage-cover form button {
+    background: linear-gradient(
+      90deg,
+      #020b1b 3.67%,
+      #163062 45%,
+      #06095d 95.7%
+    );
+    border-radius: 12px 12px;
+    border: none;
+    padding: 6.7px;
+    margin-top: 20px;
+    width: 100%;
+    color: #fff;
+    margin-bottom: 60px;
+    cursor: pointer;
+  }
+  .signuppage .signuppage-cover form p {
+    background: linear-gradient(
+      90deg,
+      #020b1b 3.67%,
+      #163062 45%,
+      #06095d 95.7%
+    );
+    border-radius: 12px 12px;
+    border: none;
+    padding: 6.7px;
+    margin-top: 20px;
+    width: 100%;
+    color: #fff;
+    margin-bottom: 60px;
+    cursor: pointer;
+    text-align: center;
+  }
+  .signuppage .signuppage-cover form button a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .signuppage form button:hover {
+    background: linear-gradient(
+      90deg,
+      #071837 3.67%,
+      #25437a 45%,
+      #161a83 95.7%
+    );
+  }
+  input::placeholder {
+    color: #5b4e4e;
+    padding: 5px;
+  }
+  .signup-underage {
+    background: #163062;
+    border-radius: 35px 0px 0px 35px;
+    position: absolute;
+    padding: 7px 12px;
+    bottom: 20px;
+    width: 55%;
+    right: 0;
+    display: flex;
+  }
+  .signup-underage img {
+    width: 20px;
+    padding-left: 10px;
+  }
+  .signup-underage h4 {
+    font-size: 11px;
+    font-style: italic;
+    color: #19a6af;
+  }
+}
+@media only screen and (min-width: 650px) and (max-width: 800px) {
+  .signuppage {
+    background: linear-gradient(
+      135.88deg,
+      #1c1c32 25.31%,
+      #202156 65.91%,
+      #171046 103.15%
+    );
+    margin: 50px 100px;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1150px) {
+  .signuppage {
+    background: linear-gradient(
+      135.88deg,
+      #1c1c32 25.31%,
+      #202156 65.91%,
+      #171046 103.15%
+    );
+    margin: 50px 200px;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+  }
+}
+@media only screen and (min-width: 1150px) {
+  .signup-overlay {
+    background: rgb(3, 3, 32);
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    animation: ease 2sec;
+    z-index: 6;
+    color: #fff;
+  }
+
+  .signup-top-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15px;
+    margin-top: 20px;
+  }
+
+  .signup-top-flex1 {
+    background: #163062;
+    border-radius: 35px 0px 0px 35px;
+    width: 100%;
+    padding: 12px;
+  }
+  .signup-top-flex1 a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .signup-top-flex2 a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 11px;
+  }
+  .signup-top-flex1 h3 {
+    text-align: center;
+    font-size: 11px;
+  }
+  .signup-top-flex2 {
+    background: rgba(22, 48, 98, 0.52);
+    border: 5px solid #163062;
+    border-radius: 0px 35px 35px 0px;
+    color: rgba(255, 255, 255, 0.31);
+    width: 100%;
+    padding: 7px;
+  }
+  .signup-top-flex2 h3 {
+    text-align: center;
+    font-size: 11px;
+  }
+
+  .signuppage {
+    background: linear-gradient(
+      135.88deg,
+      #1c1c32 25.31%,
+      #202156 65.91%,
+      #171046 103.15%
+    );
+    margin: 50px 400px;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+  }
+  .signuppage-cover {
+    margin: 10px 10px 0px 10px;
+  }
+  .signuppage img {
+    width: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .signuppage h2 {
+    padding-bottom: 20px;
+    font-size: 11px;
+  }
+  .signup-form {
+    margin-top: 20px;
+    font-size: 11px;
+  }
+  .signuppage .signuppage-cover .formEmail {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+  }
+  .signuppage .signuppage-cover .formFirstName,
+  .signuppage .signuppage-cover .formSurname,
+  .signuppage .signuppage-cover .formDOB {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+  }
+
+  .signuppage .signuppage-cover .formEmail input,
+  .signuppage .signuppage-cover .formFirstName input,
+  .signuppage .signuppage-cover .formSurname input,
+  .signuppage .signuppage-cover .formDOB input {
+    background: #d9d9d9;
+    border-radius: 12px 12px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    color: #5b4e4e;
+    font-weight: bold;
+    font-size: 12.5px;
+  }
+  .signuppage .signuppage-cover .formAge input {
+    background: #d9d9d9;
+    border-radius: 12px 12px;
+    border: none;
+    outline: none;
+    padding: 7px;
+    color: #5b4e4e;
+    font-weight: bold;
+  }
+  .formAge {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .signuppage .signuppage-cover form button {
+    background: linear-gradient(
+      90deg,
+      #020b1b 3.67%,
+      #163062 45%,
+      #06095d 95.7%
+    );
+    border-radius: 12px 12px;
+    border: none;
+    padding: 6.7px;
+    margin-top: 20px;
+    width: 100%;
+    color: #fff;
+    margin-bottom: 60px;
+    cursor: pointer;
+  }
+  .signuppage .signuppage-cover form p {
+    background: linear-gradient(
+      90deg,
+      #020b1b 3.67%,
+      #163062 45%,
+      #06095d 95.7%
+    );
+    border-radius: 12px 12px;
+    border: none;
+    padding: 6.7px;
+    margin-top: 20px;
+    width: 100%;
+    color: #fff;
+    margin-bottom: 60px;
+    cursor: pointer;
+    text-align: center;
+  }
+  .signuppage .signuppage-cover form button a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .signuppage form button:hover {
+    background: linear-gradient(
+      90deg,
+      #071837 3.67%,
+      #25437a 45%,
+      #161a83 95.7%
+    );
+  }
+  input::placeholder {
+    color: #5b4e4e;
+    padding: 5px;
+  }
+  .signup-underage {
+    background: #163062;
+    border-radius: 35px 0px 0px 35px;
+    position: absolute;
+    padding: 7px 12px;
+    bottom: 20px;
+    width: 55%;
+    right: 0;
+    display: flex;
+  }
+  .signup-underage img {
+    width: 20px;
+    padding-left: 10px;
+  }
+  .signup-underage h4 {
+    font-size: 11px;
+    font-style: italic;
+    color: #19a6af;
+  }
+}

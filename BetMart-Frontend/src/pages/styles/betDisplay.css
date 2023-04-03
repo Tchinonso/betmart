@@ -1,0 +1,92 @@
+.betDisplay{
+    width: 100%;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.betDisplay-container{
+    width: 100%;
+    padding: 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.betDisplay-container .event-time{
+    color: grey;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+.betDisplay-container .team-details{
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.betDisplay-container .team-details img{
+   width: 25px;
+  }
+  .team-details .team-details-container{
+    display: flex;
+    gap: 10px;
+    padding: 3px;
+    margin: 3px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+ .team-details-container .home-team{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .team-details-container .scores{
+    display: flex;
+    padding: 3px 0px;
+    margin: 3px 0px;
+    width: 20%;
+    background: linear-gradient(
+        90deg,
+        #351fbb 11.84%,
+        #4c7cac 56.08%,
+        #1ebcc6 93.42%
+      );
+    color: white;
+    font-style: italic;
+    align-items: center;
+    justify-content: center;
+  }
+  .master-odd-container{
+    margin-top: 10px;
+  }
+  .odds-container {
+    width: 100%;
+    background: linear-gradient(
+        90deg,
+        #260dc9 11.84%,
+        #2c79c6 56.08%,
+        #0b9ea9 93.42%
+      );
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+  }
+  .odds-container .odds-content {
+    display: flex;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  .odds-container .odds-content .odd {
+   width: 100%;
+   text-align: center;
+   border-right: 1px solid rgba(255, 255, 255, 0.283);
+  }
+  .odds-container .odds-content .odd:hover {
+    background: rgba(213, 206, 206, 0.481);
+   }

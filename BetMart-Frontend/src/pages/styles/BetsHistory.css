@@ -1,0 +1,70 @@
+@media only screen and (max-width: 650px) {
+  .bet-display {
+    margin: 10px;
+  }
+  .bet-main-flex1 {
+    display: flex;
+    gap: 20px;
+    background: linear-gradient(269.93deg, #06075b 0%, #0d1f43 95.93%);
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 5px 10px;
+  }
+  .bet-display-Stake-top-center {
+    display: flex;
+    justify-content: center;
+  }
+  .bet-display-Stake-top {
+    background: linear-gradient(269.93deg, #06075b 0%, #0d1f43 95.93%);
+    width: 80%;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  .bet-display-Stake-top h3 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 11px;
+    padding: 5px;
+  }
+  .bet-main-flex2 {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 5px 10px;
+  }
+  .bet-main-flex1 h4 {
+    font-size: 11px;
+    color: #ffffff;
+  }
+  .bet-main-flex2 h4 {
+    font-size: 11px;
+    color: #05045d;
+    margin-top: 5px;
+    width: 100%;
+  }
+  .bets-date {
+    padding-left: 20px;
+  }
+  .bet-main-btn button {
+    color: #ffffff;
+    background: #09AC19;
+    padding: 1px 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 10px;
+  }
+  .bet-main-btn {
+    margin-top: -3px;
+  }
+  .bet-main-btn2 button {
+    color: #ffffff;
+    background: #D21919;
+    padding: 1px 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 10px;
+  }
+  .bet-main-btn2 {
+    margin-top: -3px;
+  }
+}

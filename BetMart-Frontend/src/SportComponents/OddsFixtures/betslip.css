@@ -1,0 +1,81 @@
+.fixtures-odd-side{
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 34%;
+    background: #fff;
+    height: 350px;
+}
+.fixtures-odd-side-container{
+    padding: 0;
+}
+.fixtures-odd-side-container .header{
+    background: rgba(0, 0, 0, 0.788);
+    font-size: 12px;
+    color: #ffff;
+    padding: 6px;
+}
+.fixtures-odd-side-container .wining{
+    display: flex;
+    font-size: 11px;
+    background: #161572a9;
+    padding: 6px;
+    gap: 10%;
+    color: #cfcfcf;
+    text-align: center;
+}
+.fixtures-odd-side-container .wining .state{
+    width: 35%;
+}
+
+.fixtures-odd-side-container .team{
+    padding: 5px;
+    font-size: 11px;
+}
+.fixtures-odd-side-container .bet-content{
+    background: #b1b7da;
+    display: flex;
+    gap: 4%;
+    padding: 4px;
+}
+.bet-content .team-odd h4{
+    background: #fff;
+    color: #999;
+    font-size: 12px;
+    padding: 4.3px 16px;
+}
+.bet-content .team-select{
+    width: 40%;
+}
+.bet-content .team-stake input{
+    width: 65px;
+    outline: none;
+    padding: 2.5px;
+    border: none;
+}
+.team-select h2{
+    font-size: 15px;
+}
+.team-select p{
+    font-size: 10px;
+}
+.fixtures-odd-side-container .btn-add-odds{
+    display: block;
+    padding: 0;
+    margin: 0;
+    background: #b1b7da;
+}
+.fixtures-odd-side-container .btn-add-odds .btn-add-odds-container {
+    display: flex;
+    gap: 5px;
+}
+.fixtures-odd-side-container .btn-add-odds .btn-add-odds-container button {
+   background: #fff;
+   border: none;
+   color: #2e2e2e99;
+   padding: 4px 11px;
+   margin: 10px;
+   font-size: 11px;
+}
+
+ /* .fixtures-odd-head */

@@ -1,0 +1,13 @@
+.footer-display {
+  margin-top: 100px;
+  bottom: 0;
+  left: 50%;
+}
+.footer-display h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+}

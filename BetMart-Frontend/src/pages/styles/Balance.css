@@ -1,0 +1,157 @@
+@media only screen and (max-width: 650px) {
+  .balance-display {
+    margin: 10px;
+    overflow-y: scroll;
+  }
+  .balance-arrow {
+    background: #05045d;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 10px;
+    width: 20px;
+    height: 20px;
+  }
+  .balance-arrow h3 {
+    padding-left: 6px;
+    padding-top: 1px;
+  }
+  .balance-display-cover {
+    background: #ffffff;
+    filter: drop-shadow(0px 4px 7px rgba(0, 0, 0, 0.25));
+    margin-top: 30px;
+    border-radius: 6px;
+  }
+  .balance-display-inner {
+    padding: 20px;
+  }
+  .balance-main {
+    border: 3px solid #1ebcc6;
+    border-radius: 10px;
+    padding: 6px;
+  }
+  .balance-Exposure {
+    border: 3px solid #1ebcc6;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 6px;
+  }
+  .balance-main h3,
+  .balance-Exposure h3 {
+    color: #1ebcc6;
+    font-size: 11px;
+  }
+  .balance-main h2,
+  .balance-Exposure h2 {
+    color: #05045d;
+    font-size: 11px;
+  }
+  .balance-page-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  .balance-deposit button {
+    background: #05045d;
+    border-radius: 10px;
+    padding: 4px 24px;
+    border: none;
+    color: #ffffff;
+  }
+  .balance-withdraw button {
+    background: #05045d;
+    border-radius: 10px;
+    padding: 4px 24px;
+    border: none;
+    color: #ffffff;
+  }
+  .balance-main,
+  .balance-Exposure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .balance-main h2 {
+    filter: drop-shadow(0px 4px 7px rgba(0, 0, 0, 0.25));
+    background: #ffffff;
+    border-radius: 6px;
+    padding: 2px 14px;
+  }
+  .balance-Exposure h2 {
+    filter: drop-shadow(0px 4px 7px rgba(0, 0, 0, 0.25));
+    background: #ffffff;
+    border-radius: 6px;
+    padding: 2px 14px;
+  }
+  .balance-display-history {
+    margin-top: 10px;
+  }
+  .balance-display-history-top {
+    background: #1ebcc6;
+    padding: 3px;
+    border-radius: 6px;
+  }
+  .balance-display-history-first-flex {
+    background: #05045d;
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    border-radius: 6px;
+  }
+  .balance-display-history-second-flex {
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .balance-display-history-third-flex {
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .balance-display-history-second-flex h3 {
+    color: #05045d;
+    padding: 3px;
+    text-align: center;
+    font-size: 12px;
+    width: 100%;
+  }
+  .balance-display-history-third-flex h3 {
+    color: #05045d;
+    padding: 3px;
+    text-align: center;
+    font-size: 12px;
+    width: 100%;
+  }
+  .balance-display-history-second-flex h4 {
+    color: #ffffff;
+    padding: 3px;
+    text-align: center;
+    font-size: 12px;
+    width: 100%;
+    background: #09ac19;
+    border-radius: 10px;
+  }
+  .balance-display-history-third-flex h4 {
+    color: #ffffff;
+    padding: 3px;
+    text-align: center;
+    font-size: 12px;
+    width: 100%;
+    background: #05045d;
+    border-radius: 10px;
+  }
+  .balance-display-history-first-flex h3 {
+    color: #ffffff;
+    padding: 3px;
+    text-align: center;
+    font-size: 12px;
+    width: 100%;
+  }
+  .balance-display-history-top h3 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 11px;
+  }
+}

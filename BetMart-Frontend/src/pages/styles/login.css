@@ -1,0 +1,165 @@
+.overlay {
+  background: rgb(3, 3, 32);
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  animation: ease 2sec;
+  z-index: 9070;
+  color: #fff;
+}
+
+.loginpage {
+  background: linear-gradient(
+    135.88deg,
+    #1c1c32 25.31%,
+    #202156 65.91%,
+    #171046 103.15%
+  );
+  margin: 50px;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+}
+.loginpage img {
+  width: 20px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.loginpage h3 {
+  padding-bottom: 20px;
+}
+.loginpage form input {
+  background: #d9d9d9;
+  border-radius: 12px 12px;
+  border: none;
+  outline: none;
+  padding: 7px;
+  width: 90%;
+  margin: 10px;
+  color: #5b4e4e;
+  font-weight: bold;
+}
+.loginpage form button {
+  background: linear-gradient(90deg, #020b1b 3.67%, #163062 45%, #06095d 95.7%);
+  border-radius: 12px 12px;
+  border: none;
+  padding: 6.7px;
+  margin: 12px;
+  width: 90%;
+  color: #fff;
+  margin-bottom: 90px;
+  cursor: pointer;
+}
+.loginpage form button:hover {
+  background: linear-gradient(90deg, #071837 3.67%, #25437a 45%, #161a83 95.7%);
+}
+input::placeholder {
+  color: #5b4e4e;
+  padding: 5px;
+}
+.underage {
+  background: #163062;
+  border-radius: 35px 0px 0px 35px;
+  position: absolute;
+  padding: 7px 12px;
+  bottom: 20px;
+  right: 0;
+  display: flex;
+}
+.underage img {
+  width: 20px;
+  padding-left: 10px;
+}
+.underage h4 {
+  font-size: 13px;
+  font-style: italic;
+  color: #19a6af;
+}
+
+@media only screen and (min-width: 1150px) {
+  .loginpage {
+    background: linear-gradient(
+      135.88deg,
+      #1c1c32 25.31%,
+      #202156 65.91%,
+      #171046 103.15%
+    );
+    margin: 50px 400px;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .loginpage {
+    background: linear-gradient(
+      135.88deg,
+      #1c1c32 25.31%,
+      #202156 65.91%,
+      #171046 103.15%
+    );
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+  }
+
+  .loginpage form button {
+    background: linear-gradient(
+      90deg,
+      #020b1b 3.67%,
+      #163062 45%,
+      #06095d 95.7%
+    );
+    border-radius: 12px 12px;
+    border: none;
+    padding: 7px;
+    margin: 10px;
+    width: 94%;
+    color: #fff;
+    margin-bottom: 90px;
+    cursor: pointer;
+  }
+
+  .underage h4 {
+    font-size: 11px;
+    font-style: italic;
+    color: #19a6af;
+  }
+  .loginpage h3 {
+    padding-bottom: 20px;
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 650px) and (max-width: 800px) {
+  .loginpage {
+    background: linear-gradient(
+      135.88deg,
+      #1c1c32 25.31%,
+      #202156 65.91%,
+      #171046 103.15%
+    );
+    margin: 50px 100px;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1150px) {
+  .loginpage {
+    background: linear-gradient(
+      135.88deg,
+      #1c1c32 25.31%,
+      #202156 65.91%,
+      #171046 103.15%
+    );
+    margin: 50px 200px;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+  }
+}

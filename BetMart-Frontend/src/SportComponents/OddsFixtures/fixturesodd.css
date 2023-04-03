@@ -1,0 +1,58 @@
+.fixtures-odd{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.fixtures-odd-container{
+  width: 66%;
+  background: rgba(125, 125, 219, 0.11);
+  margin: 0;
+  padding: 0;
+}
+.fixtures-odd-head{
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+ .fixtures-odd-head  .home-team-select{
+  font-size: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.fixtures-odd-head  .home-team-select h4{
+  padding: 8px;
+}
+
+.fixtures-odd-head  .home-team-select img{
+  width: 30px;
+}
+.fixtures-odd-container .first-odd{
+  padding: 5px;
+
+  justify-content: center;
+  align-items: center;
+}
+.first-odd .first-odd-container{
+  display: flex;
+  margin-top: 10px;
+}
+.first-odd .first-odd-content{
+  text-align: center;
+}
+.first-odd-content{
+  background: rgb(2, 2, 92);
+  padding: 2px 20px;
+  color: #fff;
+  cursor: pointer;
+  width: 100%;
+  font-size: 12px;
+  border-left: 1px solid rgba(255, 255, 255, 0.247);
+}
+.first-odd-content:hover{
+  background: rgb(18, 18, 167);
+}

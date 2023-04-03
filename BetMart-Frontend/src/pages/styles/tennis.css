@@ -1,0 +1,158 @@
+@media only screen and (min-width: 650px) and (max-width: 2400px) {
+  .tennis-display-page {
+    display: flex;
+    gap: 10px;
+  }
+  .tennis-display {
+    background: #ffffff;
+    width: 100%;
+  }
+  .tennis-display img {
+    width: 100%;
+  }
+  .tennis-display-highlight {
+    background: #0d1d4b;
+    padding: 10px 0px;
+    margin-top: -8px;
+  }
+  .tennis-display-highlight h1 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .tennis-display-matches-flex {
+    padding: 20px 12px 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #0b1d3e;
+  }
+  .tennis-display-matches-flex-left {
+    padding: 0px 20px 10px 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .tennis-display-matches-flex-left h3 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #0b1c3c;
+  }
+  .tennis-display-matches-flex-left h4 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 30px;
+    color: #0b1d3e;
+  }
+  .tennis-display-matches-flex-right h3 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    color: #0b1d3e;
+    border: 3px solid #0b1d3e;
+    border-radius: 10px;
+    padding: 1px 6px;
+    cursor: pointer;
+  }
+  .mobile-tennis-display-page {
+    display: none;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .tennis-display-page {
+    display: none;
+  }
+  .mobile-tennis-display-page {
+    margin: 10px;
+    overflow-y: scroll;
+  }
+  .tennis-display {
+    margin-top: 10px;
+  }
+
+  .tennis-arrow {
+    background: #05045d;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 10px;
+    width: 20px;
+    height: 20px;
+  }
+  .tennis-arrow h3 {
+    padding-left: 6px;
+    padding-top: 1px;
+  }
+  .tennis-section2 {
+    background-color: #ffffff;
+  }
+  .tennis-display img {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+  }
+  .tennis-display-highlight {
+    background: #0d1d4b;
+    padding: 5px 0px;
+    margin-top: -8px;
+  }
+  .tennis-display-highlight h1 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .tennis-display-matches-flex {
+    padding: 5px 3px 0px 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #0b1d3e;
+  }
+  .tennis-display-matches-flex-left {
+    padding: 0px 0px 10px 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .tennis-display-matches-flex-left h3 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 30px;
+    color: #0b1c3c;
+  }
+  .tennis-display-matches-flex-left h4 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 30px;
+    color: #0b1d3e;
+  }
+  .tennis-display-matches-flex-right h3 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    color: #0b1d3e;
+    border: 3px solid #0b1d3e;
+    border-radius: 10px;
+    padding: 1px 6px;
+    cursor: pointer;
+  }
+}

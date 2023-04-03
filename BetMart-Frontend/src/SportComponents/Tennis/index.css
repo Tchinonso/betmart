@@ -1,0 +1,8 @@
+.view-more button{
+    background-color: rgba(0, 0, 83, 0.89);
+    color: #fff;
+    padding: 3px 10px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
